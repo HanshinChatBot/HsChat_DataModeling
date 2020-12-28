@@ -16,7 +16,7 @@
 
 ### 📊Task Graph
 
-<img src="https://user-images.githubusercontent.com/45676906/92495614-18685a00-f232-11ea-86ee-bf0d8a46353b.jpg">
+<img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/TaskGraph.png">
 
 
 ### 📍 Screenshots
