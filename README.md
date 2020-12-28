@@ -18,6 +18,48 @@
 
 <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/TaskGraph.png">
 
+- Greet
+   + Get_Inquery_Info
+      - `true`
+- Get_Inquery_Info
+   + Inquery_Iptime
+      - `Intent("user", "Get_Iptime_Info", "0","true")`
+   + Inquery_Homepage
+      - `Intent("user", "Get_Hompage_Info", "0","true")`
+   + Inquery_Group
+      - `Intent("user", "Get_Group_Info", "0","true")`
+   + Inquery_Arcon
+      - `Intent("user", "Get_Arcon_Info", "0","true")`
+   + Inquery_Etc
+      - `Intent("user", "Get_Etc_Info", "0","true")`
+   + Inquery_Teacher
+      - `Intent("user", "Get_Teacher_Info", "0","true")`
+   + Inquery_Cs
+      - `Intent("user", "Get_Cs_Info", "0","true")`
+   + End
+      - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")` 
+- Inquery_Iptime
+   + End
+      - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
+- Inquery_Homepage
+   + End
+      - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
+- Inquery_Group
+   + End
+      - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
+- Inquery_Arcon
+   + End
+      - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
+- Inquery_Etc
+   + End
+      - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
+- Inquery_Teacher
+   + End
+      - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
+- Inquery_Cs
+   + End
+      - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
+
 <br>
 
 ### 📒scenario
@@ -40,8 +82,8 @@
 ### 🤘All Entities
 
 0. ❔What is Entity?
-- 사용자의 말이나 문장 속에서 원하는 정보를 추출하여 적절하게 대화를 이끌어 나갈 수 있도록 설정하는 단어군
-- 대화의도의 파라미터가 실제로 어떤 종류의 값을 가지게 될지 결정해 주는 역할
+   - 사용자의 말이나 문장 속에서 원하는 정보를 추출하여 적절하게 대화를 이끌어 나갈 수 있도록 설정하는 단어군
+   - 대화의도의 파라미터가 실제로 어떤 종류의 값을 가지게 될지 결정해 주는 역할
 
 
 
@@ -89,8 +131,8 @@
 ### 🙌All Intent
 
 0. ❔What is Intent?
-- 사용자가 챗봇에게 전달하는 목적(의도) 쉽게 풀어 사용자의 발화내용
-- 자연어로 이야기했을 때, 말하는 사람의 발화 의도
+   - 사용자가 챗봇에게 전달하는 목적(의도) 쉽게 풀어 사용자의 발화내용
+   - 자연어로 이야기했을 때, 말하는 사람의 발화 의도
 
 
 
