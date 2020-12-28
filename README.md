@@ -188,5 +188,5 @@
 <br>
 
 ### 🔗Link
-[HsChatBot_Code](https://github.com/HanshinChatBot/HsChat_Code)
+- [HsChatBot_Code](https://github.com/HanshinChatBot/HsChat_Code)
 
