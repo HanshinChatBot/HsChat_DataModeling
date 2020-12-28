@@ -1,8 +1,8 @@
-# 🖥HsChat DataModeling🖥
+# 🏫HsChat DataModeling🏫
 
 
 
-### DataModeling
+### 🖥DataModeling🖥
 
 > 한신대학교 AI CHATBOT API 기반 유전 인공지능 대화 전처리 모델
 >
@@ -20,7 +20,7 @@
 
 <br>
 
-### All Entities
+### 🤘All Entities
 
 1. All tasks
    <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/1.png">
@@ -52,8 +52,6 @@
 
    
 
-   
-
 7. Inquery_Teacher
    <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/7.png">
 
@@ -62,7 +60,53 @@
 
 8. Inquery_Cs  
    <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/8.png">
-
    
 <br>
 
+### 🤘All Intent
+
+1. All tasks
+   <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/11.png">
+
+   
+
+2. Get_Inquery_Info
+   <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/12.png"> 
+
+
+
+3. Inquery_Homepage
+   <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/13.png">
+   
+
+
+4. Inquery_Iptime
+   <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/14.png">
+
+   
+
+5. Inquery_Group
+   <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/15.png">
+
+   
+
+6. Inquery_Arcon
+   <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/16.png">
+
+   
+
+7. Inquery_Etc
+   <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/17.png">
+
+   
+
+8. Inquery_Teacher
+   <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/18.png">
+
+   
+9. Inquery_Cs
+   <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/19.png">
+
+<br>
+
+### 📖References
