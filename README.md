@@ -1,5 +1,4 @@
-# HsChat DataModeling
-
+# 🖥HsChat DataModeling🖥
 
 
 
@@ -12,10 +11,6 @@
 > 사용자의 발화내용을 형태소 단위로 분석해 재학습하는 기능으로 정확한 질의응답이 가능합니다.
 > 
 > 안녕하세요. 한신대학교 정보관리팀 CHATBOT 입니다.
-
-<br>
-
-:smiley_cat: <b>[API Specification](https://github.com/wjdrbs96/SpringBoot_OUNCE_Server/wiki)</b> - API 명세서
 
 <br>
 
