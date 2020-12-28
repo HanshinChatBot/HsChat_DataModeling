@@ -19,45 +19,45 @@
 <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/TaskGraph.png">
 
 - Greet
-   + Get_Inquery_Info
+   + To => Get_Inquery_Info
       - `true`
 - Get_Inquery_Info
-   + Inquery_Iptime
+   + To => Inquery_Iptime
       - `Intent("user", "Get_Iptime_Info", "0","true")`
-   + Inquery_Homepage
+   + To => Inquery_Homepage
       - `Intent("user", "Get_Hompage_Info", "0","true")`
-   + Inquery_Group
+   + To => Inquery_Group
       - `Intent("user", "Get_Group_Info", "0","true")`
-   + Inquery_Arcon
+   + To => Inquery_Arcon
       - `Intent("user", "Get_Arcon_Info", "0","true")`
-   + Inquery_Etc
+   + To => Inquery_Etc
       - `Intent("user", "Get_Etc_Info", "0","true")`
-   + Inquery_Teacher
+   + To => Inquery_Teacher
       - `Intent("user", "Get_Teacher_Info", "0","true")`
-   + Inquery_Cs
+   + To => Inquery_Cs
       - `Intent("user", "Get_Cs_Info", "0","true")`
-   + End
+   + To => End
       - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")` 
 - Inquery_Iptime
-   + End
+   + To => End
       - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
 - Inquery_Homepage
-   + End
+   + To => End
       - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
 - Inquery_Group
-   + End
+   + To => End
       - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
 - Inquery_Arcon
-   + End
+   + To => End
       - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
 - Inquery_Etc
-   + End
+   + To => End
       - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
 - Inquery_Teacher
-   + End
+   + To => End
       - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
 - Inquery_Cs
-   + End
+   + To => End
       - `Intent(system, bye, 0, true) or Intent("user", "negate", "0", "true")`
 
 <br>
