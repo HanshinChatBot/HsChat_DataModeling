@@ -22,6 +22,12 @@
 
 ### 🤘All Entities
 
+0. ❔What is Entity?
+> 사용자의 말이나 문장 속에서 원하는 정보를 추출하여 적절하게 대화를 이끌어 나갈 수 있도록 설정하는 단어군
+> 대화의도의 파라미터가 실제로 어떤 종류의 값을 가지게 될지 결정해 주는 역할
+
+
+
 1. All tasks
    <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/1.png">
 
@@ -63,7 +69,13 @@
    
 <br>
 
-### 🤘All Intent
+### 🙌All Intent
+
+0. ❔What is Intent?
+> 사용자가 챗봇에게 전달하는 목적(의도) 쉽게 풀어 사용자의 발화내용
+> 자연어로 이야기했을 때, 말하는 사람의 발화 의도
+
+
 
 1. All tasks
    <img src="https://github.com/HanshinChatBot/HsChat_DataModeling/blob/master/pic/11.png">
@@ -110,3 +122,6 @@
 <br>
 
 ### 📖References
+- [공공 인공지능](https://aiopen.etri.re.kr/)
+- [대화형 챗봇 설계 이론](https://gist.github.com/haje01/7fc9d1b1fc1b6c8c9b7918abf5407a86)
+- [네이버 CHATBOT API](https://www.ncloud.com/product/aiService/chatbot)
